@@ -37,7 +37,6 @@ With the given time constraints, the following features could not be implemented
 
 ```bash
 $ git clone https://github.com/Shivd131/web-html-css-js.git
-$ pnpm install
 ```
 
 <p align="center">
