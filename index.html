@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="product-details">
+        <div class="product-image">
+          <img id="main-image" src="" alt="Product Image" />
+          <div class="thumbnail-images"></div>
+        </div>
+        <div class="product-info">
+          <h3 id="product-vendor"></h3>
+          <h1 id="product-title"></h1>
+          <hr style="color: #bbc1f8" />
+          <div class="price-container">
+            <span id="product-price"></span>
+            <span id="compare-price"></span>
+          </div>
+          <hr style="color: #bbc1f8" />
+          <div class="options">
+            <div class="color-options">
+              <label>Choose a Color:</label>
+              <div class="color-swatches">
+                <div
+                  class="color-swatch"
+                  style="background-color: #ecdecc"
+                ></div>
+                <div
+                  class="color-swatch"
+                  style="background-color: #bbd278"
+                ></div>
+                <div
+                  class="color-swatch"
+                  style="background-color: #bbc1f8"
+                ></div>
+                <div
+                  class="color-swatch"
+                  style="background-color: #ffd3f8"
+                ></div>
+              </div>
+            </div>
+            <hr style="color: #bbc1f8" />
+            <div class="size-options">
+              <label>Choose a Size:</label>
+              <div id="size-select"></div>
+            </div>
+          </div>
+          <div class="quantity-container">
+            <div>
+              <button id="decrement">-</button>
+              <input type="number" id="quantity" value="1" min="1" />
+              <button id="increment">+</button>
+            </div>
+            <button id="add-to-cart">Add To Cart</button>
+          </div>
+          <hr style="color: #bbc1f8" />
+          <div id="product-description"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
